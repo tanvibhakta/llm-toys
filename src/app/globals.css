@@ -1,16 +1,16 @@
 @import 'tailwindcss';
 
-/* Twitter Grid Layout - Desktop (1265px+) */
-.twitter-grid {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  min-height: 100vh;
-  max-width: 100vw;
-}
+@theme {
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif;
+  --color-white: rgb(231, 233, 234);
+  --color-black: #000;
 
-.grid-sidebar {
-  width: 256px; /* Full sidebar width */
+  /* breakpoints */
+  --breakpoint-tablet: 31.25rem;
+  --breakpoint-desktop: 61.875rem;
+  --breakpoint-desktop-large: 79.0625rem;
 }
 
 .grid-main {
@@ -26,13 +26,6 @@
   grid-area: bottom-profile;
 }
 
-/* Tablet Layout - Below 1265px: Left sidebar minimized */
-@media (max-width: 1264px) {
-  .grid-sidebar {
-    width: 4.25rem; /* 68px - Twitter's min left sidebar width */
-  }
-}
-
 /* Tablet Layout - Below 990px: Right sidebar minimized */
 @media (max-width: 989px) {
   .grid-right-sidebar {
@@ -42,18 +35,6 @@
 
 /* Mobile Layout - Below 500px */
 @media (max-width: 499px) {
-  .twitter-grid {
-    flex-direction: column;
-  }
-
-  .grid-sidebar {
-    grid-area: sidebar;
-    width: 100%;
-    height: 3.25rem; /* Bottom nav height */
-    /* position: sticky;
-    bottom: 0; */
-  }
-
   .grid-main {
     max-width: 100%;
     padding: 0 1rem;
