@@ -1,26 +1,65 @@
 @import 'tailwindcss';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Twitter Grid Layout - Desktop (1265px+) */
+.twitter-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 100vw;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.grid-sidebar {
+  width: 256px; /* Full sidebar width */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.grid-main {
+  width: 40rem;
+  overflow-y: scroll;
+}
+
+.grid-right-sidebar {
+  width: 320px; /* Full right sidebar width */
+}
+
+.grid-bottom-profile {
+  grid-area: bottom-profile;
+}
+
+/* Tablet Layout - Below 1265px: Left sidebar minimized */
+@media (max-width: 1264px) {
+  .grid-sidebar {
+    width: 4.25rem; /* 68px - Twitter's min left sidebar width */
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Tablet Layout - Below 990px: Right sidebar minimized */
+@media (max-width: 989px) {
+  .grid-right-sidebar {
+    display: none; /* Right sidebar completely hidden */
+  }
+}
+
+/* Mobile Layout - Below 500px */
+@media (max-width: 499px) {
+  .twitter-grid {
+    flex-direction: column;
+  }
+
+  .grid-sidebar {
+    grid-area: sidebar;
+    width: 100%;
+    height: 3.25rem; /* Bottom nav height */
+    /* position: sticky;
+    bottom: 0; */
+  }
+
+  .grid-main {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .grid-bottom-profile {
+    display: none;
+  }
 }
