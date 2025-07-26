@@ -1,7 +1,6 @@
 import LeftSidebar from '@/components/business/LeftSidebar';
 import MainFeed from '@/components/business/MainFeed';
 import RightSidebar from '@/components/business/RightSidebar';
-// import BottomProfile from "@/components/business/BottomProfile";
 
 export default function Hellsite() {
   return (
@@ -9,7 +8,6 @@ export default function Hellsite() {
       <LeftSidebar />
       <MainFeed />
       <RightSidebar />
-      {/* <BottomProfile /> */}
     </div>
   );
 }
