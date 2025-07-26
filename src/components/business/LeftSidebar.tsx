@@ -1,6 +1,6 @@
 export default function LeftSidebar() {
   return (
-    <aside className="h-14 w-full min-w-17 tablet:w-64 tablet:max-w-64 bg-red-900/50 border-r border-gray-800 p-4 flex flex-col">
+    <aside className="h-14 w-full min-w-17 sticky bottom-0 tablet:w-64 tablet:max-w-64 bg-red-900/50 border-r border-gray-800 p-4 flex flex-col">
       <div className="tablet:inline hidden text-white font-semibold mb-4 text-lg tablet:text-left text-center">
         <span className="">LEFT SIDEBAR</span>
         <span className="desktop:hidden">🐦</span>
