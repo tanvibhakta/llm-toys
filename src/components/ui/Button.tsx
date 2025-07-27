@@ -27,9 +27,9 @@ const buttonVariants = cva(
         ],
       },
       size: {
-        small: "h-8 px-4 text-sm", // height 32px, font size 14px
-        medium: "h-9 px-6 text-[15px]", // height 36px, font size 15px
-        large: "h-13 px-8 text-[17px]", // height 52px, font size 17px
+        small: "h-8 px-4 text-sm",
+        medium: "h-9 px-6 text-base",
+        large: "h-13 px-8 text-lg",
       },
     },
     defaultVariants: {
