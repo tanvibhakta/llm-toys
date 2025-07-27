@@ -1,9 +1,9 @@
-import type { Metadata } from 'next';
-import './globals.css';
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'LLM Toys',
-  description: '', // TODO: Figure out a way to encapsulate the definitions of this project
+  title: "LLM Toys",
+  description: "", // TODO: Figure out a way to encapsulate the definitions of this project
 };
 
 export default function RootLayout({

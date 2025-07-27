@@ -1,4 +1,4 @@
-import BottomProfile from './BottomProfile';
+import BottomProfile from "./BottomProfile";
 
 export default function LeftSidebar() {
   return (
