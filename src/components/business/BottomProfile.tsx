@@ -11,7 +11,6 @@ export default function BottomProfile() {
         <div className="lg:block hidden">
           • User Avatar
           <br />• Name & Username
-          <br />• Three dots menu
         </div>
         <div className="lg:hidden block text-center">Profile</div>
       </div>

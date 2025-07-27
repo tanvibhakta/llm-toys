@@ -10,20 +10,12 @@ export default function LeftSidebar() {
         </div>
         <div className="text-gray-400 text-sm flex-1">
           <div className="hidden md:flex flex-col justify-around items-center h-full">
-            <div>🏠</div>
-            <div>🔍</div>
-            <div>🔔</div>
-            <div>✉️</div>
-            <div>🔖</div>
-            <div>👤</div>
-            <div>⚙️</div>
+            <div>🏠 Home</div>
+            <div>🔔 Notifications</div>
           </div>
           <div className="md:hidden flex justify-around items-baseline h-full">
             <div>🏠</div>
-            <div>🔍</div>
             <div>🔔</div>
-            <div>✉️</div>
-            <div>👤</div>
           </div>
         </div>
       </div>

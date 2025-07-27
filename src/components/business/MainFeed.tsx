@@ -6,14 +6,8 @@ export default function MainFeed() {
           MAIN CONTENT
         </div>
         <div className="text-gray-400 text-sm">
-          • Header (Home/For You tabs)
-          <br />
           • Tweet Composer
-          <br />
-          • Tweet Timeline
-          <br />
-          • Individual Posts
-          <br />• Infinite scroll feed
+          <br />• Tweet Timeline, infinite scroll feed
         </div>
       </div>
     </main>
