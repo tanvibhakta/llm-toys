@@ -4,7 +4,7 @@ import RightSidebar from '@/components/business/RightSidebar';
 
 export default function Hellsite() {
   return (
-    <div className="flex flex-col-reverse tablet:flex-row justify-center min-h-screen max-w-screen">
+    <div className="flex flex-col-reverse md:flex-row justify-center min-h-screen max-w-screen">
       <LeftSidebar />
       <MainFeed />
       <RightSidebar />

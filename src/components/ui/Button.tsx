@@ -9,20 +9,20 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary: [
-          'text-text-black',
-          'bg-button-primary-bg',
-          'hover:bg-button-primary-hover',
-          'active:bg-button-primary-hover',
-          'disabled:bg-button-primary-hover',
+          'text-black',
+          'bg-slate-50',
+          'hover:bg-slate-300',
+          'active:bg-slate-300',
+          'disabled:bg-slate-300',
           'disabled:opacity-50',
         ],
         // accent button
         secondary: [
           'text-white',
-          'bg-button-secondary-bg',
-          'hover:bg-button-secondary-hover',
-          'active:bg-button-secondary-hover',
-          'disabled:bg-button-secondary-hover',
+          'bg-sky-500',
+          'hover:bg-sky-700',
+          'active:bg-sky-700',
+          'disabled:bg-sky-700',
           'disabled:opacity-50',
         ],
       },
