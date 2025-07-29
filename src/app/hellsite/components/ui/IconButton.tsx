@@ -1,3 +1,4 @@
+"use client";
 import * as React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { clsx } from "clsx";
@@ -15,14 +16,14 @@ const iconButtonVariants = cva(
         ],
       },
       size: {
-        small: "h-8 min-w-8 [&>svg]:h-4 [&>svg]:w-4",
-        medium: "h-9 min-w-9 [&>svg]:h-5 [&>svg]:w-5",
-        large: "h-12 min-w-12 [&>svg]:h-6 [&>svg]:w-6",
+        small: "h-8 min-w-8 [&_svg]:h-4 [&_svg]:w-4",
+        medium: "h-9 min-w-9 [&_svg]:h-5 [&_svg]:w-5",
+        large: "h-12 min-w-12 [&_svg]:h-6 [&_svg]:w-6",
       },
     },
     defaultVariants: {
       variant: "ghost",
-      size: "medium",
+      size: "small",
     },
   },
 );
