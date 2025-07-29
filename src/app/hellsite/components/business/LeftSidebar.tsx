@@ -2,7 +2,7 @@ import BottomProfile from "./BottomProfile";
 
 export default function LeftSidebar() {
   return (
-    <aside className="h-14 md:h-auto w-full min-w-17 sticky bottom-0 md:w-64 md:max-w-64 bg-red-900/50 border-r border-gray-800 p-4 flex flex-col justify-between">
+    <aside className="h-14 md:h-auto w-full min-w-17 sticky bottom-0 md:w-64 md:max-w-64 border-r border-gray-800 p-4 flex flex-col justify-between">
       <div className="flex flex-col">
         <div className="md:inline hidden text-white font-semibold mb-4 text-lg md:text-left text-center">
           <span className="">LEFT SIDEBAR</span>
