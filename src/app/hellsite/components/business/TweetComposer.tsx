@@ -3,6 +3,7 @@ import clsx from "clsx";
 import { Button } from "../ui/Button";
 import { TextArea } from "../ui/TextArea";
 import { useState } from "react";
+import Avatar from "../ui/Avatar";
 
 export default function TweetComposer() {
   const [internalValue, setInternalValue] = useState("");
@@ -18,8 +19,7 @@ export default function TweetComposer() {
   return (
     <div className="border-b border-gray-800 p-4">
       <div className="flex gap-3">
-        {/* TODO: Replace with Avatar */}
-        <div className="w-12 h-12 bg-gray-500 rounded-full flex-shrink-0"></div>
+        <Avatar />
 
         <div className="flex-1 mt-2">
           <TextArea
