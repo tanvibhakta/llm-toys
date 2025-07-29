@@ -1,0 +1,479 @@
+{
+  "tweets": [
+    {
+      "id": "1",
+      "user": {
+        "id": "bradknowstech",
+        "displayName": "Brad Matthews",
+        "username": "bradknowstech",
+        "avatarUrl": "https://via.placeholder.com/40/EF4444/FFFFFF?text=BM",
+        "isVerified": false
+      },
+      "content": "Actually, that's not how TCP/IP works. Let me explain: The protocol stack has 4 layers, not 7 like you incorrectly stated. Maybe do some research before posting? 🙄",
+      "timestamp": "2m ago",
+      "engagement": {
+        "replies": 23,
+        "retweets": 5,
+        "likes": 12
+      },
+      "isLiked": false,
+      "isRetweeted": false
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": "mayaillustrates",
+        "displayName": "Maya Chen",
+        "username": "mayaillustrates",
+        "avatarUrl": "https://via.placeholder.com/40/F59E0B/FFFFFF?text=MC",
+        "isVerified": true
+      },
+      "content": "just finished this piece and i'm SO happy with how the colors turned out!! 🎨✨ what do you think friends?? [image attached]",
+      "timestamp": "5m ago",
+      "engagement": {
+        "replies": 156,
+        "retweets": 89,
+        "likes": 1247
+      },
+      "isLiked": true,
+      "isRetweeted": false
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": "alexlovesapple",
+        "displayName": "Alex Rivera",
+        "username": "alexlovesapple",
+        "avatarUrl": "https://via.placeholder.com/40/06B6D4/FFFFFF?text=AR",
+        "isVerified": false
+      },
+      "content": "OMG THE NEW VISION PRO 2 IS INSANE!!! Just pre-ordered mine, can't wait to live in the future 🤯🚀 #AppleEvent #VisionPro2",
+      "timestamp": "12m ago",
+      "engagement": {
+        "replies": 78,
+        "retweets": 234,
+        "likes": 567
+      },
+      "isLiked": false,
+      "isRetweeted": true
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": "murphycodez",
+        "displayName": "Dev Murphy",
+        "username": "murphycodez",
+        "avatarUrl": "https://via.placeholder.com/40/8B5CF6/FFFFFF?text=DM",
+        "isVerified": false
+      },
+      "content": "ok so the modal is rendering behind the navbar... z-index: 9999 didn't work... time to check if there's a stacking context issue 😤",
+      "timestamp": "15m ago",
+      "engagement": {
+        "replies": 45,
+        "retweets": 67,
+        "likes": 189
+      },
+      "isLiked": true,
+      "isRetweeted": false
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": "truthseeker1776",
+        "displayName": "Frank Peterson",
+        "username": "truthseeker1776",
+        "avatarUrl": "https://via.placeholder.com/40/DC2626/FFFFFF?text=FP",
+        "isVerified": false
+      },
+      "content": "Another tech company announces \"diversity quotas\"... when will they learn that MERIT should be the only factor??? This is destroying our industry!!!",
+      "timestamp": "18m ago",
+      "engagement": {
+        "replies": 234,
+        "retweets": 12,
+        "likes": 45
+      },
+      "isLiked": false,
+      "isRetweeted": false
+    },
+    {
+      "id": "6",
+      "user": {
+        "id": "priyacodes",
+        "displayName": "Priya Sharma",
+        "username": "priyacodes",
+        "avatarUrl": "https://via.placeholder.com/40/10B981/FFFFFF?text=PS",
+        "isVerified": true
+      },
+      "content": "Thread: Let's talk about why only 2% of venture capital goes to women founders, and less than 1% to Black women. The data is clear - systemic barriers exist. 1/8",
+      "timestamp": "22m ago",
+      "engagement": {
+        "replies": 89,
+        "retweets": 156,
+        "likes": 445
+      },
+      "isLiked": true,
+      "isRetweeted": true
+    },
+    {
+      "id": "7",
+      "user": {
+        "id": "blrcoffeeguy",
+        "displayName": "Coffee Karthik",
+        "username": "blrcoffeeguy",
+        "avatarUrl": "https://via.placeholder.com/40/92400E/FFFFFF?text=CK",
+        "isVerified": false
+      },
+      "content": "just discovered this AMAZING filter coffee place in Jayanagar 4th block... the decoction is PERFECT 😍☕ #BangaloreCoffee #FilterCoffee",
+      "timestamp": "25m ago",
+      "engagement": {
+        "replies": 34,
+        "retweets": 23,
+        "likes": 128
+      },
+      "isLiked": false,
+      "isRetweeted": false
+    },
+    {
+      "id": "8",
+      "user": {
+        "id": "bradknowstech",
+        "displayName": "Brad Matthews",
+        "username": "bradknowstech",
+        "avatarUrl": "https://via.placeholder.com/40/EF4444/FFFFFF?text=BM",
+        "isVerified": false
+      },
+      "content": "You clearly don't understand how blockchain works. It's DECENTRALIZED, which means... *proceeds to write 5 more tweets explaining something nobody asked about*",
+      "timestamp": "28m ago",
+      "engagement": {
+        "replies": 67,
+        "retweets": 8,
+        "likes": 24
+      },
+      "isLiked": false,
+      "isRetweeted": false
+    },
+    {
+      "id": "9",
+      "user": {
+        "id": "mayaillustrates",
+        "displayName": "Maya Chen",
+        "username": "mayaillustrates",
+        "avatarUrl": "https://via.placeholder.com/40/F59E0B/FFFFFF?text=MC",
+        "isVerified": true
+      },
+      "content": "good morning beautiful people!! ☀️ starting a new commission today and the client wants DRAGONS!!! my favorite thing to draw hehe 🐉💕",
+      "timestamp": "32m ago",
+      "engagement": {
+        "replies": 78,
+        "retweets": 45,
+        "likes": 567
+      },
+      "isLiked": true,
+      "isRetweeted": false
+    },
+    {
+      "id": "10",
+      "user": {
+        "id": "sammadatapple",
+        "displayName": "Sam Torres",
+        "username": "sammadatapple",
+        "avatarUrl": "https://via.placeholder.com/40/F97316/FFFFFF?text=ST",
+        "isVerified": false
+      },
+      "content": "$3500 for a headset that gives me motion sickness after 20 minutes?? Apple has completely lost it. Steve would be rolling in his grave rn",
+      "timestamp": "35m ago",
+      "engagement": {
+        "replies": 234,
+        "retweets": 345,
+        "likes": 1234
+      },
+      "isLiked": false,
+      "isRetweeted": true
+    },
+    {
+      "id": "11",
+      "user": {
+        "id": "murphycodez",
+        "displayName": "Dev Murphy",
+        "username": "murphycodez",
+        "avatarUrl": "https://via.placeholder.com/40/8B5CF6/FFFFFF?text=DM",
+        "isVerified": false
+      },
+      "content": "update: it was position: relative on the parent container messing everything up... WHO PUT THAT THERE??? (it was me. 3 months ago. past me is my worst enemy)",
+      "timestamp": "38m ago",
+      "engagement": {
+        "replies": 123,
+        "retweets": 89,
+        "likes": 678
+      },
+      "isLiked": true,
+      "isRetweeted": false
+    },
+    {
+      "id": "12",
+      "user": {
+        "id": "blrcoffeeguy",
+        "displayName": "Coffee Karthik",
+        "username": "blrcoffeeguy",
+        "avatarUrl": "https://via.placeholder.com/40/92400E/FFFFFF?text=CK",
+        "isVerified": false
+      },
+      "content": "unpopular opinion: malleshwaram 8th cross filter coffee >>> any third wave outlet.. dont @ me",
+      "timestamp": "42m ago",
+      "engagement": {
+        "replies": 56,
+        "retweets": 34,
+        "likes": 167
+      },
+      "isLiked": false,
+      "isRetweeted": false
+    },
+    {
+      "id": "13",
+      "user": {
+        "id": "bradknowstech",
+        "displayName": "Brad Matthews",
+        "username": "bradknowstech",
+        "avatarUrl": "https://via.placeholder.com/40/EF4444/FFFFFF?text=BM",
+        "isVerified": false
+      },
+      "content": "LOL you're using var instead of const? In 2024? Let me educate you on why that's terrible practice...",
+      "timestamp": "45m ago",
+      "engagement": {
+        "replies": 89,
+        "retweets": 12,
+        "likes": 45
+      },
+      "isLiked": false,
+      "isRetweeted": false
+    },
+    {
+      "id": "14",
+      "user": {
+        "id": "priyacodes",
+        "displayName": "Priya Sharma",
+        "username": "priyacodes",
+        "avatarUrl": "https://via.placeholder.com/40/10B981/FFFFFF?text=PS",
+        "isVerified": true
+      },
+      "content": "Reminder that \"we only hire for culture fit\" often translates to \"we only hire people who look and think like us\" - unconscious bias training isn't enough, we need systemic change",
+      "timestamp": "48m ago",
+      "engagement": {
+        "replies": 167,
+        "retweets": 234,
+        "likes": 678
+      },
+      "isLiked": true,
+      "isRetweeted": true
+    },
+    {
+      "id": "15",
+      "user": {
+        "id": "alexlovesapple",
+        "displayName": "Alex Rivera",
+        "username": "alexlovesapple",
+        "avatarUrl": "https://via.placeholder.com/40/06B6D4/FFFFFF?text=AR",
+        "isVerified": false
+      },
+      "content": "the spatial computing paradigm is going to CHANGE EVERYTHING!!! imagine coding in 3D space!! imagine designing in AR!! THE FUTURE IS NOW!!!!!!",
+      "timestamp": "52m ago",
+      "engagement": {
+        "replies": 45,
+        "retweets": 67,
+        "likes": 234
+      },
+      "isLiked": false,
+      "isRetweeted": false
+    },
+    {
+      "id": "16",
+      "user": {
+        "id": "truthseeker1776",
+        "displayName": "Frank Peterson",
+        "username": "truthseeker1776",
+        "avatarUrl": "https://via.placeholder.com/40/DC2626/FFFFFF?text=FP",
+        "isVerified": false
+      },
+      "content": "Big Tech pushing \"inclusive language\" guidelines... next they'll be policing our THOUGHTS. This is exactly what Orwell warned us about!!",
+      "timestamp": "55m ago",
+      "engagement": {
+        "replies": 123,
+        "retweets": 23,
+        "likes": 89
+      },
+      "isLiked": false,
+      "isRetweeted": false
+    },
+    {
+      "id": "17",
+      "user": {
+        "id": "murphycodez",
+        "displayName": "Dev Murphy",
+        "username": "murphycodez",
+        "avatarUrl": "https://via.placeholder.com/40/8B5CF6/FFFFFF?text=DM",
+        "isVerified": false
+      },
+      "content": "VICTORY!! modal is working!! only took 2 hours and 47 console.logs but we got there team 💪 pushing to prod now (jk jk... unless?)",
+      "timestamp": "58m ago",
+      "engagement": {
+        "replies": 78,
+        "retweets": 156,
+        "likes": 445
+      },
+      "isLiked": true,
+      "isRetweeted": false
+    },
+    {
+      "id": "18",
+      "user": {
+        "id": "mayaillustrates",
+        "displayName": "Maya Chen",
+        "username": "mayaillustrates",
+        "avatarUrl": "https://via.placeholder.com/40/F59E0B/FFFFFF?text=MC",
+        "isVerified": true
+      },
+      "content": "thank u all for the lovely comments on my last piece!! 🥺💖 art twitter is the BEST twitter!! now back to drawing dragons~~",
+      "timestamp": "1h ago",
+      "engagement": {
+        "replies": 89,
+        "retweets": 45,
+        "likes": 678
+      },
+      "isLiked": true,
+      "isRetweeted": false
+    },
+    {
+      "id": "19",
+      "user": {
+        "id": "blrcoffeeguy",
+        "displayName": "Coffee Karthik",
+        "username": "blrcoffeeguy",
+        "avatarUrl": "https://via.placeholder.com/40/92400E/FFFFFF?text=CK",
+        "isVerified": false
+      },
+      "content": "psa: if ur coffee shop in bangalore doesnt serve filter coffee ur not a real coffee shop... just saying 🤷‍♂️ #BengaluruCoffeeScene",
+      "timestamp": "1h ago",
+      "engagement": {
+        "replies": 45,
+        "retweets": 23,
+        "likes": 134
+      },
+      "isLiked": false,
+      "isRetweeted": false
+    },
+    {
+      "id": "20",
+      "user": {
+        "id": "sammadatapple",
+        "displayName": "Sam Torres",
+        "username": "sammadatapple",
+        "avatarUrl": "https://via.placeholder.com/40/F97316/FFFFFF?text=ST",
+        "isVerified": false
+      },
+      "content": "\"spatial computing\" is just VR with extra steps and a 10x price tag. change my mind.",
+      "timestamp": "1h ago",
+      "engagement": {
+        "replies": 234,
+        "retweets": 123,
+        "likes": 567
+      },
+      "isLiked": false,
+      "isRetweeted": false
+    },
+    {
+      "id": "21",
+      "user": {
+        "id": "bradknowstech",
+        "displayName": "Brad Matthews",
+        "username": "bradknowstech",
+        "avatarUrl": "https://via.placeholder.com/40/EF4444/FFFFFF?text=BM",
+        "isVerified": false
+      },
+      "content": "Uh, you do realize that Python's GIL makes true multithreading impossible right? Maybe learn the basics before trying to build concurrent systems 🤦‍♂️",
+      "timestamp": "1h ago",
+      "engagement": {
+        "replies": 78,
+        "retweets": 12,
+        "likes": 67
+      },
+      "isLiked": false,
+      "isRetweeted": false
+    },
+    {
+      "id": "22",
+      "user": {
+        "id": "priyacodes",
+        "displayName": "Priya Sharma",
+        "username": "priyacodes",
+        "avatarUrl": "https://via.placeholder.com/40/10B981/FFFFFF?text=PS",
+        "isVerified": true
+      },
+      "content": "Great to see more companies publishing diversity reports, but transparency without action is just performative. Where are the promotion rates? Pay equity data? Retention numbers?",
+      "timestamp": "1h ago",
+      "engagement": {
+        "replies": 156,
+        "retweets": 234,
+        "likes": 789
+      },
+      "isLiked": true,
+      "isRetweeted": true
+    },
+    {
+      "id": "23",
+      "user": {
+        "id": "murphycodez",
+        "displayName": "Dev Murphy",
+        "username": "murphycodez",
+        "avatarUrl": "https://via.placeholder.com/40/8B5CF6/FFFFFF?text=DM",
+        "isVerified": false
+      },
+      "content": "me: css is easy\nalso me: *spends 3 hours centering a div*\n\nit really do be like that sometimes 😅",
+      "timestamp": "1h ago",
+      "engagement": {
+        "replies": 234,
+        "retweets": 345,
+        "likes": 1234
+      },
+      "isLiked": true,
+      "isRetweeted": false
+    },
+    {
+      "id": "24",
+      "user": {
+        "id": "blrcoffeeguy",
+        "displayName": "Coffee Karthik",
+        "username": "blrcoffeeguy",
+        "avatarUrl": "https://via.placeholder.com/40/92400E/FFFFFF?text=CK",
+        "isVerified": false
+      },
+      "content": "good morning bangalore!!! starting my day at brahmin's coffee bar... if u know u know 😎☕ #ClassicBangalore #CoffeeLife",
+      "timestamp": "2h ago",
+      "engagement": {
+        "replies": 67,
+        "retweets": 34,
+        "likes": 189
+      },
+      "isLiked": false,
+      "isRetweeted": false
+    },
+    {
+      "id": "25",
+      "user": {
+        "id": "mayaillustrates",
+        "displayName": "Maya Chen",
+        "username": "mayaillustrates",
+        "avatarUrl": "https://via.placeholder.com/40/F59E0B/FFFFFF?text=MC",
+        "isVerified": true
+      },
+      "content": "commission update: client loved the dragon sketches!! 🐲✨ this is why i love my job so much ahhhh!! time to start coloring!!!",
+      "timestamp": "2h ago",
+      "engagement": {
+        "replies": 89,
+        "retweets": 56,
+        "likes": 445
+      },
+      "isLiked": true,
+      "isRetweeted": false
+    }
+  ]
+}
