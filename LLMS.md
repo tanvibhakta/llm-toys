@@ -26,6 +26,14 @@ This project uses PNPM, not NPM. Always use `pnpm` commands.
 - `pnpm type-check` - Run TypeScript type checking without emitting files
 - Husky pre-commit hooks run Prettier and ESLint on staged files
 
+## Documentation sources
+
+You can use the following URLs to access the documentation for project dependencies in an easily understandable format:
+
+- Next.js: https://nextjs.org/docs/llms.txt
+
+Check these documentation sources before performing a web search. Always make sure you're accessing the correct version of the documentation.
+
 ## Styling
 
 - Tailwind CSS 4 with dark theme as default
