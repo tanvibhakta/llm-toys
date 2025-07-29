@@ -13,6 +13,7 @@ export const TextArea = ({
   value,
   defaultValue,
   onChange,
+  error,
   ...props
 }: TextAreaProps) => {
   const textareaRef = React.useRef<HTMLTextAreaElement>(null);
@@ -39,8 +40,8 @@ export const TextArea = ({
         {...props}
       />
 
-      {props.error && typeof props.error === "string" && (
-        <div className="mt-1 text-sm text-red-500">{props.error}</div>
+      {error && typeof error === "string" && (
+        <div className="mt-1 text-sm text-red-500">{error}</div>
       )}
     </>
   );
