@@ -1,6 +1,6 @@
-import LeftSidebar from "@/components/business/LeftSidebar";
-import MainFeed from "@/components/business/MainFeed";
-import RightSidebar from "@/components/business/RightSidebar";
+import LeftSidebar from "@/hellsite/components/business/LeftSidebar";
+import MainFeed from "@/hellsite/components/business/MainFeed";
+import RightSidebar from "@/hellsite/components/business/RightSidebar";
 
 export default function Hellsite() {
   return (
